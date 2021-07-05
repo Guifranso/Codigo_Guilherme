@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+* {
+  margin:0px;
+  padding:0px;
+  font-family: 'Nunito', sans serif;
+  font-weight: bold;
+}
+#root{
+  height: 100%;
+  padding:0px;
+  margin:0px;
+}
+html,body {
+  height: 100%;
+  padding:0px;
+}
+.body{
+  height: 100%;
+  padding:0px;
+}
+.hdr {
+  display: flex;
+  min-height: 10%;
+  background-color:#02353C;
+  color:#C1F6ED;
+  align-items: center;
+}
+.hdr-item {
+  padding-left: 1%;
+  font-size:200%;
+  text-decoration: none;
+  color:#C1F6ED;
+}
+.mn {
+  min-height: 80%;
+  background-color:#03535e;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.mn-block {
+  height: 100%;
+  height: fit-content;
+  background-color:#2EAF7D;
+  display:flex;
+  border:solid 0px;
+  border-radius: 1rem;
+  width: 30%;
+  min-height: 100%;
+}
+.mn-form {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  padding:2%;
+}
+.mn-form-item {
+  display:flex;
+  background-color:#b2d4bf;
+  color:#02353C;
+  outline:0;
+  justify-content: space-around;
+  font-size: 125%;
+  border-radius: 0.5rem;
+  border:solid 0px;
+  margin:1% 5%;
+  padding:5%;
+}
+
+.mn-form-item::-webkit-inner-spin-button{
+  display: none;
+}
+
+.mn-form-p{
+  font-size: 160%;
+  color:white;
+  padding:2% 5% 0%;
+}
+.mn-form-button {
+  display:flex;
+  background-color:#3fd0a5;
+  color:white;
+  font-size: 175%;
+  border:0;
+  border-radius: 0.5rem;
+  justify-content: space-around;
+  margin:5%;
+  padding:4%;
+  font-weight: bold;
+}
+.mn-form-button:hover {
+  justify-content: space-around;
+  background-color:#1cb9b1;
+  cursor:pointer;
+  font-weight: bold;
+}
+.mn-result {
+  display:flex;
+  flex-direction: row;
+  color:#02353C;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 110%;
+  padding:4%;
+}
+.mn-result-item {
+  width: 100%;
+  font-size: 110%;
+  padding:0.8rem 0;
+}
+.line {
+  height:1px;
+  border-width:0;
+  background-color:#02353C;
+}
+.list {
+  font-size: 1.4rem;
+  list-style-type: none;
+}
+.ftr {
+  min-height: 10%;
+  background-color:#02353C;
+  color:#C1F6ED;
+}
